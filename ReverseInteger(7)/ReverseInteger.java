@@ -37,11 +37,11 @@ class Solution{
 	}
 
 	private static long getPower(int x){
-        long sum = 1;
-        while(x>0){
-            sum *= 10L;
-            x --;
-        }
+        	long sum = 1;
+        	while(x>0){
+            		sum *= 10L;
+           		x --;
+        	}
 		return sum;
 	}
 }
